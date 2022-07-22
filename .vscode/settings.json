@@ -1,0 +1,19 @@
+{
+    "C_Cpp.errorSquiggles": "Enabled",
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "mc.lxwx.xyz",
+            "port": 15432,
+            "driver": "MariaDB",
+            "name": "opengauss",
+            "group": "zhang",
+            "username": "gaussdb",
+            "database": "gaussdb",
+            "password": "YywwRR@123shell"
+        }
+    ]
+}
