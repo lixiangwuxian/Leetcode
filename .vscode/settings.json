@@ -15,5 +15,10 @@
             "database": "gaussdb",
             "password": "YywwRR@123shell"
         }
-    ]
+    ],
+    "files.associations": {
+        "cstdio": "cpp",
+        "__config": "cpp",
+        "__assert": "cpp"
+    }
 }
