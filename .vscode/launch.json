@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Offer58",
+            "request": "launch",
+            "mainClass": "Offer58.Offer58",
+            "projectName": "Leetcode_7d8f4359"
+        },
+        {
+            "type": "java",
             "name": "Offer52",
             "request": "launch",
             "mainClass": "Offer52.Offer52",
