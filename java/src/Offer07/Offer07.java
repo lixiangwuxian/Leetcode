@@ -17,7 +17,7 @@ class Solution {
         if(preorder.length==0){
             return null;
         }
-        int inRootIndex=serach(inorder,preorder[0]);
+        int inRootIndex=search(inorder,preorder[0]);
         int[] leftpre=Arrays.copyOfRange(preorder, 1, 1+inRootIndex);
         int[] rightpre=Arrays.copyOfRange(preorder,inRootIndex+1, inorder.length);
         int[] leftin=Arrays.copyOfRange(inorder, 0, inRootIndex);
@@ -28,7 +28,7 @@ class Solution {
         return root;
         
     }
-    public int serach(int[] nums,int target){
+    public int search(int[] nums,int target){
         int count=0;
         for(int i:nums){
             if(i==target){
